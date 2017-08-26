@@ -1,0 +1,5 @@
+type Post implements Node {
+  id: ID! @isUnique
+  description: String!
+  imageUrl: String! @isUnique
+}
