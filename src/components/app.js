@@ -8,7 +8,7 @@ import ListPage from '../routes/list';
 import CreatePage from '../routes/create';
 
 const networkInterface = createNetworkInterface({
-  uri: 'https://api.graph.cool/simple/v1/cj6r92nx6193p0187uxpan5xs'
+  uri: 'SIMPLE_API_ENDPOINT_URI_GOES_HERE'
 });
 
 const client = new ApolloClient({

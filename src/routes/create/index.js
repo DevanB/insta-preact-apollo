@@ -12,7 +12,7 @@ class CreatePage extends Component {
 
   render({}, { imageUrl, description }) {
     return (
-      <div class="w-100 pa4 flex justify-center">
+      <div role="main" class="w-100 pa4 flex justify-center">
         <div style={{ maxWidth: 400 }} class="">
           <input
             class="w-100 pa3 mv2"

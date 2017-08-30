@@ -11,7 +11,7 @@ class ListPage extends Component {
     }
 
     return (
-      <div class="w-100 flex justify-center">
+      <div role="main" class="w-100 flex justify-center">
         <Link href="/create" class="fixed bg-white top-0 right-0 pa4 ttu dim black no-underline">
           + New Post
         </Link>
