@@ -2,6 +2,10 @@
 
 ## Steps to run
 ```bash
+git clone git@github.com:DevanB/insta-preact-apollo.git && cd insta-preact-apollo
+```
+
+```bash
 npm i -g graphcool
 ```
 
