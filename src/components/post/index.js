@@ -29,14 +29,16 @@ class Post extends Component {
       variables: { id: this.props.post.id },
       update: (store, { data: { deletePost } }) => {
         const data = store.readQuery({ query: ALL_POSTS_QUERY });
-        data.allPosts.filter(post => post.id !== deletePost.id);
+        const newPosts = data.allPosts.filter(post => post.id !== deletePost.id);
         store.writeQuery({
           query: ALL_POSTS_QUERY,
-          data
+          data: {
+            ...data,
+            allPosts: newPosts
+          }
         });
       }
     });
-    this.props.refresh();
   };
 }
 
