@@ -2,7 +2,7 @@
 
 ## Steps to run
 ```bash
-npm i -g graphcool-cli
+npm i -g graphcool
 ```
 
 ```bash
